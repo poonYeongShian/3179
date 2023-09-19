@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-    <script src="vega_lite_vis.js"></script>
+    <script src="js/vega_lite_vis.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -60,6 +60,28 @@
                 </p>
             </div>
         </div>
+        <div id="bar_chart">
+            he
+        </div>
+
+
+    <script type="text/javascript">
+        // var specVis1 = "./Visualisations/choropleth.json";
+        // var specVis2 = "./Visualisations/genderLine.json";
+        // var specVis3 = "./Visualisations/InteractiveScatter.json";
+        // var specVis4 = "./Visualisations/choroplethMetroMelb.json";
+        // var specVis5 = "./Visualisations/dotplot.json";
+    
+        // vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
+        //     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        // }).catch(console.error);
+
+        var vg_1 = "./Visualisations/daily_cost_bar_chart.vg.json";
+        vegaEmbed("#bar_chart", vg_1).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        </script>
 </body>
 
 </html>
