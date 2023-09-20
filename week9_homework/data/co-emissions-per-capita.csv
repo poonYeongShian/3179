@@ -1025,10 +1025,10 @@ Argentina,ARG,2018,4.0663075
 Argentina,ARG,2019,3.9894862
 Argentina,ARG,2020,3.7583838
 Argentina,ARG,2021,4.117966
-Armenia,ARM,1830,8.83201E-05
+Armenia,ARM,1830,8.83E-05
 Armenia,ARM,1831,0.000107208
-Armenia,ARM,1832,6.93768E-05
-Armenia,ARM,1833,8.59326E-05
+Armenia,ARM,1832,6.94E-05
+Armenia,ARM,1833,8.59E-05
 Armenia,ARM,1850,0.000461668
 Armenia,ARM,1855,0.001336478
 Armenia,ARM,1858,0.00182603
@@ -1304,10 +1304,10 @@ Asia,,1826,0
 Asia,,1827,0
 Asia,,1828,0
 Asia,,1829,0
-Asia,,1830,2.99809E-06
-Asia,,1831,3.58579E-06
-Asia,,1832,2.38181E-06
-Asia,,1833,2.97166E-06
+Asia,,1830,3.00E-06
+Asia,,1831,3.59E-06
+Asia,,1832,2.38E-06
+Asia,,1833,2.97E-06
 Asia,,1834,0
 Asia,,1835,0
 Asia,,1836,0
@@ -1324,12 +1324,12 @@ Asia,,1846,0
 Asia,,1847,0
 Asia,,1848,0
 Asia,,1849,0
-Asia,,1850,1.78161E-05
+Asia,,1850,1.78E-05
 Asia,,1851,0
 Asia,,1852,0
 Asia,,1853,0
 Asia,,1854,0
-Asia,,1855,5.45283E-05
+Asia,,1855,5.45E-05
 Asia,,1856,0
 Asia,,1857,0
 Asia,,1858,0.000562566
@@ -1531,10 +1531,10 @@ Asia (excl. China and India),,1826,0
 Asia (excl. China and India),,1827,0
 Asia (excl. China and India),,1828,0
 Asia (excl. China and India),,1829,0
-Asia (excl. China and India),,1830,1.42998E-05
-Asia (excl. China and India),,1831,1.70983E-05
-Asia (excl. China and India),,1832,1.13466E-05
-Asia (excl. China and India),,1833,1.4134E-05
+Asia (excl. China and India),,1830,1.43E-05
+Asia (excl. China and India),,1831,1.71E-05
+Asia (excl. China and India),,1832,1.13E-05
+Asia (excl. China and India),,1833,1.41E-05
 Asia (excl. China and India),,1834,0
 Asia (excl. China and India),,1835,0
 Asia (excl. China and India),,1836,0
@@ -1551,7 +1551,7 @@ Asia (excl. China and India),,1846,0
 Asia (excl. China and India),,1847,0
 Asia (excl. China and India),,1848,0
 Asia (excl. China and India),,1849,0
-Asia (excl. China and India),,1850,8.1735E-05
+Asia (excl. China and India),,1850,8.17E-05
 Asia (excl. China and India),,1851,0
 Asia (excl. China and India),,1852,0
 Asia (excl. China and India),,1853,0
@@ -9530,10 +9530,10 @@ Gambia,GMB,2018,0.24277644
 Gambia,GMB,2019,0.23950748
 Gambia,GMB,2020,0.2384809
 Gambia,GMB,2021,0.24837817
-Georgia,GEO,1830,6.3839E-05
-Georgia,GEO,1831,7.59102E-05
-Georgia,GEO,1832,5.01467E-05
-Georgia,GEO,1833,6.21133E-05
+Georgia,GEO,1830,6.38E-05
+Georgia,GEO,1831,7.59E-05
+Georgia,GEO,1832,5.01E-05
+Georgia,GEO,1833,6.21E-05
 Georgia,GEO,1850,0.000330421
 Georgia,GEO,1855,0.000958139
 Georgia,GEO,1858,0.001309594
@@ -14374,10 +14374,10 @@ Lower-middle-income countries,,1826,0
 Lower-middle-income countries,,1827,0
 Lower-middle-income countries,,1828,0
 Lower-middle-income countries,,1829,0
-Lower-middle-income countries,,1830,1.16426E-05
-Lower-middle-income countries,,1831,1.39069E-05
-Lower-middle-income countries,,1832,9.22729E-06
-Lower-middle-income countries,,1833,1.14811E-05
+Lower-middle-income countries,,1830,1.16E-05
+Lower-middle-income countries,,1831,1.39E-05
+Lower-middle-income countries,,1832,9.23E-06
+Lower-middle-income countries,,1833,1.15E-05
 Lower-middle-income countries,,1834,0
 Lower-middle-income countries,,1835,0
 Lower-middle-income countries,,1836,0
@@ -14394,7 +14394,7 @@ Lower-middle-income countries,,1846,0
 Lower-middle-income countries,,1847,0
 Lower-middle-income countries,,1848,0
 Lower-middle-income countries,,1849,0
-Lower-middle-income countries,,1850,6.54575E-05
+Lower-middle-income countries,,1850,6.55E-05
 Lower-middle-income countries,,1851,0
 Lower-middle-income countries,,1852,0
 Lower-middle-income countries,,1853,0
@@ -22430,7 +22430,7 @@ South America,,2018,2.5065114
 South America,,2019,2.505585
 South America,,2020,2.2737656
 South America,,2021,2.475527
-South Korea,KOR,1905,7.90436E-05
+South Korea,KOR,1905,7.90E-05
 South Korea,KOR,1909,0.000842526
 South Korea,KOR,1910,0.001050588
 South Korea,KOR,1911,0.001233052
@@ -23590,7 +23590,7 @@ Taiwan,TWN,2020,11.093657
 Taiwan,TWN,2021,11.85487
 Tajikistan,TJK,1830,0.000117347
 Tajikistan,TJK,1831,0.000139536
-Tajikistan,TJK,1832,9.21779E-05
+Tajikistan,TJK,1832,9.22E-05
 Tajikistan,TJK,1833,0.000114175
 Tajikistan,TJK,1850,0.000604436
 Tajikistan,TJK,1855,0.001753098
@@ -25382,228 +25382,228 @@ United Kingdom,GBR,2018,5.7159815
 United Kingdom,GBR,2019,5.4621234
 United Kingdom,GBR,2020,4.8652816
 United Kingdom,GBR,2021,5.1540995
-United States,USA,1800,0.042136
-United States,USA,1801,0.043749023
-United States,USA,1802,0.046463702
-United States,USA,1803,0.04675338
-United States,USA,1804,0.051547863
-United States,USA,1805,0.05170035
-United States,USA,1806,0.049647022
-United States,USA,1807,0.055148073
-United States,USA,1808,0.056223534
-United States,USA,1809,0.05672419
-United States,USA,1810,0.057195846
-United States,USA,1811,0.05957973
-United States,USA,1812,0.0625836
-United States,USA,1813,0.06519789
-United States,USA,1814,0.06802918
-United States,USA,1815,0.070616506
-United States,USA,1816,0.07547438
-United States,USA,1817,0.079147205
-United States,USA,1818,0.08329477
-United States,USA,1819,0.0788342
-United States,USA,1820,0.07940742
-United States,USA,1821,0.08064995
-United States,USA,1822,0.08181233
-United States,USA,1823,0.08290245
-United States,USA,1824,0.09074809
-United States,USA,1825,0.09872902
-United States,USA,1826,0.111148365
-United States,USA,1827,0.11888613
-United States,USA,1828,0.12727666
-United States,USA,1829,0.13939415
-United States,USA,1830,0.15767905
-United States,USA,1831,0.16626401
-United States,USA,1832,0.21589011
-United States,USA,1833,0.2451494
-United States,USA,1834,0.22857675
-United States,USA,1835,0.28379282
-United States,USA,1836,0.30255765
-United States,USA,1837,0.33012334
-United States,USA,1838,0.3045117
-United States,USA,1839,0.3247494
-United States,USA,1840,0.3359056
-United States,USA,1841,0.34518078
-United States,USA,1842,0.37302932
-United States,USA,1843,0.40623948
-United States,USA,1844,0.47249264
-United States,USA,1845,0.5519618
-United States,USA,1846,0.6075555
-United States,USA,1847,0.6989572
-United States,USA,1848,0.7553745
-United States,USA,1849,0.79568434
-United States,USA,1850,0.83870095
-United States,USA,1851,1.0133029
-United States,USA,1852,1.0699053
-United States,USA,1853,1.1693825
-United States,USA,1854,1.2480785
-United States,USA,1855,1.394424
-United States,USA,1856,1.4202958
-United States,USA,1857,1.4139436
-United States,USA,1858,1.3925428
-United States,USA,1859,1.4731518
-United States,USA,1860,1.5011375
-United States,USA,1861,1.4090402
-United States,USA,1862,1.4285618
-United States,USA,1863,1.6126716
-United States,USA,1864,1.6866376
-United States,USA,1865,1.6529324
-United States,USA,1866,1.6266301
-United States,USA,1867,1.9555545
-United States,USA,1868,2.1599026
-United States,USA,1869,2.401964
-United States,USA,1870,2.4715502
-United States,USA,1871,2.524375
-United States,USA,1872,3.0265274
-United States,USA,1873,3.2694678
-United States,USA,1874,3.0782638
-United States,USA,1875,3.0432105
-United States,USA,1876,2.912211
-United States,USA,1877,3.1561265
-United States,USA,1878,3.0182126
-United States,USA,1879,3.5994267
-United States,USA,1880,3.986088
-United States,USA,1881,4.1242743
-United States,USA,1882,4.517172
-United States,USA,1883,4.764769
-United States,USA,1884,4.911519
-United States,USA,1885,4.885538
-United States,USA,1886,5.0466657
-United States,USA,1887,5.2776074
-United States,USA,1888,6.2780514
-United States,USA,1889,5.5148797
-United States,USA,1890,6.468085
-United States,USA,1891,6.7461
-United States,USA,1892,6.9749255
-United States,USA,1893,6.9034314
-United States,USA,1894,6.3442984
-United States,USA,1895,7.033352
-United States,USA,1896,6.918819
-United States,USA,1897,7.067037
-United States,USA,1898,7.563029
-United States,USA,1899,8.516529
-United States,USA,1900,8.856599
-United States,USA,1901,9.463163
-United States,USA,1902,9.83929
-United States,USA,1903,11.294751
-United States,USA,1904,10.9292755
-United States,USA,1905,11.993248
-United States,USA,1906,12.352037
-United States,USA,1907,14.090626
-United States,USA,1908,12.090888
-United States,USA,1909,13.149926
-United States,USA,1910,14.104886
-United States,USA,1911,13.743023
-United States,USA,1912,14.455241
-United States,USA,1913,15.308516
-United States,USA,1914,13.795953
-United States,USA,1915,14.121179
-United States,USA,1916,15.469336
-United States,USA,1917,16.785204
-United States,USA,1918,17.309261
-United States,USA,1919,14.442194
-United States,USA,1920,16.730282
-United States,USA,1921,13.506341
-United States,USA,1922,13.424879
-United States,USA,1923,17.478342
-United States,USA,1924,15.423299
-United States,USA,1925,15.735723
-United States,USA,1926,16.812035
-United States,USA,1927,16.192951
-United States,USA,1928,15.685378
-United States,USA,1929,16.603048
-United States,USA,1930,14.58597
-United States,USA,1931,12.289558
-United States,USA,1932,10.321664
-United States,USA,1933,10.991698
-United States,USA,1934,11.621933
-United States,USA,1935,11.991493
-United States,USA,1936,13.672
-United States,USA,1937,14.204154
-United States,USA,1938,11.926593
-United States,USA,1939,13.037762
-United States,USA,1940,14.487894
-United States,USA,1941,15.615902
-United States,USA,1942,16.58958
-United States,USA,1943,16.911407
-United States,USA,1944,17.948437
-United States,USA,1945,17.084375
-United States,USA,1946,16.121332
-United States,USA,1947,17.508738
-United States,USA,1948,17.940481
-United States,USA,1949,14.822593
-United States,USA,1950,17.139591
-United States,USA,1951,17.388702
-United States,USA,1952,16.68099
-United States,USA,1953,16.808949
-United States,USA,1954,15.735587
-United States,USA,1955,16.932928
-United States,USA,1956,17.432253
-United States,USA,1957,16.985847
-United States,USA,1958,16.145485
-United States,USA,1959,16.33884
-United States,USA,1960,16.444399
-United States,USA,1961,16.11992
-United States,USA,1962,16.457443
-United States,USA,1963,16.931978
-United States,USA,1964,17.430368
-United States,USA,1965,17.920338
-United States,USA,1966,18.617542
-United States,USA,1967,19.12176
-United States,USA,1968,19.622215
-United States,USA,1969,20.39401
-United States,USA,1970,21.662867
-United States,USA,1971,21.514513
-United States,USA,1972,22.28148
-United States,USA,1973,23.08108
-United States,USA,1974,22.0809
-United States,USA,1975,21.19624
-United States,USA,1976,22.261742
-United States,USA,1977,22.696184
-United States,USA,1978,22.67913
-United States,USA,1979,22.718443
-United States,USA,1980,21.549343
-United States,USA,1981,20.767942
-United States,USA,1982,19.505386
-United States,USA,1983,19.22555
-United States,USA,1984,20.029282
-United States,USA,1985,19.785904
-United States,USA,1986,19.634184
-United States,USA,1987,20.119186
-United States,USA,1988,20.844942
-United States,USA,1989,20.951412
-United States,USA,1990,20.648254
-United States,USA,1991,20.134295
-United States,USA,1992,20.281036
-United States,USA,1993,20.381666
-United States,USA,1994,20.457945
-United States,USA,1995,20.43133
-United States,USA,1996,20.880138
-United States,USA,1997,20.895596
-United States,USA,1998,20.799135
-United States,USA,1999,20.812017
-United States,USA,2000,21.304466
-United States,USA,2001,20.70963
-United States,USA,2002,20.643988
-United States,USA,2003,20.665068
-United States,USA,2004,20.813087
-United States,USA,2005,20.676287
-United States,USA,2006,20.207176
-United States,USA,2007,20.265636
-United States,USA,2008,19.362011
-United States,USA,2009,17.772331
-United States,USA,2010,18.257408
-United States,USA,2011,17.671368
-United States,USA,2012,16.881199
-United States,USA,2013,17.161404
-United States,USA,2014,17.168596
-United States,USA,2015,16.563307
-United States,USA,2016,16.050102
-United States,USA,2017,15.800776
-United States,USA,2018,16.187923
-United States,USA,2019,15.730885
-United States,USA,2020,14.037217
-United States,USA,2021,14.858668
+United States of America,USA,1800,0.042136
+United States of America,USA,1801,0.043749023
+United States of America,USA,1802,0.046463702
+United States of America,USA,1803,0.04675338
+United States of America,USA,1804,0.051547863
+United States of America,USA,1805,0.05170035
+United States of America,USA,1806,0.049647022
+United States of America,USA,1807,0.055148073
+United States of America,USA,1808,0.056223534
+United States of America,USA,1809,0.05672419
+United States of America,USA,1810,0.057195846
+United States of America,USA,1811,0.05957973
+United States of America,USA,1812,0.0625836
+United States of America,USA,1813,0.06519789
+United States of America,USA,1814,0.06802918
+United States of America,USA,1815,0.070616506
+United States of America,USA,1816,0.07547438
+United States of America,USA,1817,0.079147205
+United States of America,USA,1818,0.08329477
+United States of America,USA,1819,0.0788342
+United States of America,USA,1820,0.07940742
+United States of America,USA,1821,0.08064995
+United States of America,USA,1822,0.08181233
+United States of America,USA,1823,0.08290245
+United States of America,USA,1824,0.09074809
+United States of America,USA,1825,0.09872902
+United States of America,USA,1826,0.111148365
+United States of America,USA,1827,0.11888613
+United States of America,USA,1828,0.12727666
+United States of America,USA,1829,0.13939415
+United States of America,USA,1830,0.15767905
+United States of America,USA,1831,0.16626401
+United States of America,USA,1832,0.21589011
+United States of America,USA,1833,0.2451494
+United States of America,USA,1834,0.22857675
+United States of America,USA,1835,0.28379282
+United States of America,USA,1836,0.30255765
+United States of America,USA,1837,0.33012334
+United States of America,USA,1838,0.3045117
+United States of America,USA,1839,0.3247494
+United States of America,USA,1840,0.3359056
+United States of America,USA,1841,0.34518078
+United States of America,USA,1842,0.37302932
+United States of America,USA,1843,0.40623948
+United States of America,USA,1844,0.47249264
+United States of America,USA,1845,0.5519618
+United States of America,USA,1846,0.6075555
+United States of America,USA,1847,0.6989572
+United States of America,USA,1848,0.7553745
+United States of America,USA,1849,0.79568434
+United States of America,USA,1850,0.83870095
+United States of America,USA,1851,1.0133029
+United States of America,USA,1852,1.0699053
+United States of America,USA,1853,1.1693825
+United States of America,USA,1854,1.2480785
+United States of America,USA,1855,1.394424
+United States of America,USA,1856,1.4202958
+United States of America,USA,1857,1.4139436
+United States of America,USA,1858,1.3925428
+United States of America,USA,1859,1.4731518
+United States of America,USA,1860,1.5011375
+United States of America,USA,1861,1.4090402
+United States of America,USA,1862,1.4285618
+United States of America,USA,1863,1.6126716
+United States of America,USA,1864,1.6866376
+United States of America,USA,1865,1.6529324
+United States of America,USA,1866,1.6266301
+United States of America,USA,1867,1.9555545
+United States of America,USA,1868,2.1599026
+United States of America,USA,1869,2.401964
+United States of America,USA,1870,2.4715502
+United States of America,USA,1871,2.524375
+United States of America,USA,1872,3.0265274
+United States of America,USA,1873,3.2694678
+United States of America,USA,1874,3.0782638
+United States of America,USA,1875,3.0432105
+United States of America,USA,1876,2.912211
+United States of America,USA,1877,3.1561265
+United States of America,USA,1878,3.0182126
+United States of America,USA,1879,3.5994267
+United States of America,USA,1880,3.986088
+United States of America,USA,1881,4.1242743
+United States of America,USA,1882,4.517172
+United States of America,USA,1883,4.764769
+United States of America,USA,1884,4.911519
+United States of America,USA,1885,4.885538
+United States of America,USA,1886,5.0466657
+United States of America,USA,1887,5.2776074
+United States of America,USA,1888,6.2780514
+United States of America,USA,1889,5.5148797
+United States of America,USA,1890,6.468085
+United States of America,USA,1891,6.7461
+United States of America,USA,1892,6.9749255
+United States of America,USA,1893,6.9034314
+United States of America,USA,1894,6.3442984
+United States of America,USA,1895,7.033352
+United States of America,USA,1896,6.918819
+United States of America,USA,1897,7.067037
+United States of America,USA,1898,7.563029
+United States of America,USA,1899,8.516529
+United States of America,USA,1900,8.856599
+United States of America,USA,1901,9.463163
+United States of America,USA,1902,9.83929
+United States of America,USA,1903,11.294751
+United States of America,USA,1904,10.9292755
+United States of America,USA,1905,11.993248
+United States of America,USA,1906,12.352037
+United States of America,USA,1907,14.090626
+United States of America,USA,1908,12.090888
+United States of America,USA,1909,13.149926
+United States of America,USA,1910,14.104886
+United States of America,USA,1911,13.743023
+United States of America,USA,1912,14.455241
+United States of America,USA,1913,15.308516
+United States of America,USA,1914,13.795953
+United States of America,USA,1915,14.121179
+United States of America,USA,1916,15.469336
+United States of America,USA,1917,16.785204
+United States of America,USA,1918,17.309261
+United States of America,USA,1919,14.442194
+United States of America,USA,1920,16.730282
+United States of America,USA,1921,13.506341
+United States of America,USA,1922,13.424879
+United States of America,USA,1923,17.478342
+United States of America,USA,1924,15.423299
+United States of America,USA,1925,15.735723
+United States of America,USA,1926,16.812035
+United States of America,USA,1927,16.192951
+United States of America,USA,1928,15.685378
+United States of America,USA,1929,16.603048
+United States of America,USA,1930,14.58597
+United States of America,USA,1931,12.289558
+United States of America,USA,1932,10.321664
+United States of America,USA,1933,10.991698
+United States of America,USA,1934,11.621933
+United States of America,USA,1935,11.991493
+United States of America,USA,1936,13.672
+United States of America,USA,1937,14.204154
+United States of America,USA,1938,11.926593
+United States of America,USA,1939,13.037762
+United States of America,USA,1940,14.487894
+United States of America,USA,1941,15.615902
+United States of America,USA,1942,16.58958
+United States of America,USA,1943,16.911407
+United States of America,USA,1944,17.948437
+United States of America,USA,1945,17.084375
+United States of America,USA,1946,16.121332
+United States of America,USA,1947,17.508738
+United States of America,USA,1948,17.940481
+United States of America,USA,1949,14.822593
+United States of America,USA,1950,17.139591
+United States of America,USA,1951,17.388702
+United States of America,USA,1952,16.68099
+United States of America,USA,1953,16.808949
+United States of America,USA,1954,15.735587
+United States of America,USA,1955,16.932928
+United States of America,USA,1956,17.432253
+United States of America,USA,1957,16.985847
+United States of America,USA,1958,16.145485
+United States of America,USA,1959,16.33884
+United States of America,USA,1960,16.444399
+United States of America,USA,1961,16.11992
+United States of America,USA,1962,16.457443
+United States of America,USA,1963,16.931978
+United States of America,USA,1964,17.430368
+United States of America,USA,1965,17.920338
+United States of America,USA,1966,18.617542
+United States of America,USA,1967,19.12176
+United States of America,USA,1968,19.622215
+United States of America,USA,1969,20.39401
+United States of America,USA,1970,21.662867
+United States of America,USA,1971,21.514513
+United States of America,USA,1972,22.28148
+United States of America,USA,1973,23.08108
+United States of America,USA,1974,22.0809
+United States of America,USA,1975,21.19624
+United States of America,USA,1976,22.261742
+United States of America,USA,1977,22.696184
+United States of America,USA,1978,22.67913
+United States of America,USA,1979,22.718443
+United States of America,USA,1980,21.549343
+United States of America,USA,1981,20.767942
+United States of America,USA,1982,19.505386
+United States of America,USA,1983,19.22555
+United States of America,USA,1984,20.029282
+United States of America,USA,1985,19.785904
+United States of America,USA,1986,19.634184
+United States of America,USA,1987,20.119186
+United States of America,USA,1988,20.844942
+United States of America,USA,1989,20.951412
+United States of America,USA,1990,20.648254
+United States of America,USA,1991,20.134295
+United States of America,USA,1992,20.281036
+United States of America,USA,1993,20.381666
+United States of America,USA,1994,20.457945
+United States of America,USA,1995,20.43133
+United States of America,USA,1996,20.880138
+United States of America,USA,1997,20.895596
+United States of America,USA,1998,20.799135
+United States of America,USA,1999,20.812017
+United States of America,USA,2000,21.304466
+United States of America,USA,2001,20.70963
+United States of America,USA,2002,20.643988
+United States of America,USA,2003,20.665068
+United States of America,USA,2004,20.813087
+United States of America,USA,2005,20.676287
+United States of America,USA,2006,20.207176
+United States of America,USA,2007,20.265636
+United States of America,USA,2008,19.362011
+United States of America,USA,2009,17.772331
+United States of America,USA,2010,18.257408
+United States of America,USA,2011,17.671368
+United States of America,USA,2012,16.881199
+United States of America,USA,2013,17.161404
+United States of America,USA,2014,17.168596
+United States of America,USA,2015,16.563307
+United States of America,USA,2016,16.050102
+United States of America,USA,2017,15.800776
+United States of America,USA,2018,16.187923
+United States of America,USA,2019,15.730885
+United States of America,USA,2020,14.037217
+United States of America,USA,2021,14.858668
 Upper-middle-income countries,,1750,0
 Upper-middle-income countries,,1760,0
 Upper-middle-income countries,,1770,0
@@ -25639,10 +25639,10 @@ Upper-middle-income countries,,1826,0
 Upper-middle-income countries,,1827,0
 Upper-middle-income countries,,1828,0
 Upper-middle-income countries,,1829,0
-Upper-middle-income countries,,1830,2.74505E-05
-Upper-middle-income countries,,1831,3.28054E-05
-Upper-middle-income countries,,1832,2.17951E-05
-Upper-middle-income countries,,1833,2.71808E-05
+Upper-middle-income countries,,1830,2.75E-05
+Upper-middle-income countries,,1831,3.28E-05
+Upper-middle-income countries,,1832,2.18E-05
+Upper-middle-income countries,,1833,2.72E-05
 Upper-middle-income countries,,1834,0
 Upper-middle-income countries,,1835,0
 Upper-middle-income countries,,1836,0
