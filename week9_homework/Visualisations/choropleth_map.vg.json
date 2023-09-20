@@ -30,12 +30,12 @@
           }
         },
         {"filter": "datum.Year == 2021"},
-        {"calculate": "datum.CO2", "as": "co2 emissions"}
+        {"calculate": "datum.CO2", "as": "CO2 (tons)"}
       ],
-      "mark": {"type": "geoshape"},
+      "mark": {"type": "geoshape", "stroke":"white", "strokeWidth":0.5},
       "encoding": {
         "color": {
-          "field": "co2 emissions",
+          "field": "CO2 (tons)",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
