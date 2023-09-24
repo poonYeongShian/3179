@@ -60,8 +60,7 @@
                 </p>
             </div>
         </div>
-        <!-- <div id="bar_chart"> 
-        </div> -->
+   
         
         <!-- Choropleth map -->
         <div class="pure-g">
@@ -70,26 +69,28 @@
             </div>
         </div>
 
+        <!-- Bar chart -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+            <div id="bar_chart" class="vis-container"></div>
+            </div>
+        </div>
+
+
+    </div> <!-- end page -->
+
     <script type="text/javascript">
-        // var specVis1 = "./Visualisations/choropleth.json";
-        // var specVis2 = "./Visualisations/genderLine.json";
-        // var specVis3 = "./Visualisations/InteractiveScatter.json";
-        // var specVis4 = "./Visualisations/choroplethMetroMelb.json";
-        // var specVis5 = "./Visualisations/dotplot.json";
-    
-        // vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
+      
+        var vg_1 = "./Visualisations/choropleth_map.vg.json";
+
+        var vg_2 = "./Visualisations/bar_chart.vg.json";
+
+
+        // vegaEmbed('#choropleth_map', vg_1).then(function(result) {
         //     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         // }).catch(console.error);
 
-        // var vg_1 = "./Visualisations/daily_cost_bar_chart.vg.json";
-        var vg_2 = "./Visualisations/choropleth_map.vg.json";
-
-        // vegaEmbed("#bar_chart", vg_1).then(function(result) {
-        //     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-        // }).catch(console.error);
-
-
-        vegaEmbed('#choropleth_map', vg_2).then(function(result) {
+        vegaEmbed('#bar_chart', vg_2).then(function(result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 

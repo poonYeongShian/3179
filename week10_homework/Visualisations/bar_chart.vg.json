@@ -1,0 +1,100 @@
+{
+   "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+   "background":"#fff7fb",
+   "width": 620,
+   "height":350,
+   "title":"Number of crimes over the years",
+   "data":{
+      "url":"https://raw.githubusercontent.com/Jason-Toh/FIT3179/main/assignment_2/data/nyc_crime_filtered.csv"
+   },
+   "params":[
+      {
+         "name":"current_year",
+         "value":2006,
+         "bind":{
+            "input":"range",
+            "min":2006,
+            "max":2019,
+            "step":1,
+            "name":"Year: "
+         }
+      }
+   ],
+   "transform":[
+      {
+         "filter":{
+            "timeUnit":"year",
+            "field":"arrest_date",
+            "equal":"current_year"
+         }
+      }
+   ],
+   "encoding":{
+      "x":{
+         "field":"arrest_key",
+         "aggregate":"count",
+         "type":"quantitative",
+         "title":"Number of Offences"
+      },
+      "y":{
+         "field":"ofns_desc",
+         "title":"Name of Offence",
+         "sort":{
+            "op":"count",
+            "field":"arrest_key",
+            "order":"descending"
+         }
+      }
+   },
+   "layer":[
+      {
+         "mark":"bar",
+         "encoding":{
+            "color":{
+               "field":"ofns_desc",
+               "type":"nominal",
+               "scale":{
+                  "range" : [
+                     "#1F77B4FF",
+                     "#FF7F0EFF",
+                     "#2CA02CFF",
+                     "#D62728FF",
+                     "#9467BDFF",
+                     "#BCBD22FF",
+                     "#17BECFFF"
+                  ]
+               },
+               "legend":null
+            },
+            "tooltip":[
+               {
+                  "field":"ofns_desc",
+                  "type":"nominal",
+                  "title":"Name of Offence"
+               },
+               {
+                  "aggregate":"count",
+                  "type":"quantitative",
+                  "title":"Number of Offences"
+               }
+            ]
+         }
+      },
+      {
+         "mark":{
+            "type":"text",
+            "align":"right",
+            "xOffset":-2
+         },
+         "encoding":{
+            "text":{
+               "aggregate":"count",
+               "type":"quantitative"
+            },
+            "color":{
+               "value":"white"
+            }
+         }
+      }
+   ]
+}
