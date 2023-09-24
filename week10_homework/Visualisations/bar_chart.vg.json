@@ -10,10 +10,10 @@
    "params":[
       {
          "name":"current_year",
-         "value":2018,
+         "value":2015,
          "bind":{
             "input":"range",
-            "min":2018,
+            "min":2015,
             "max":2022,
             "step":1,
             "name":"Year: "
@@ -27,21 +27,23 @@
             "field":"year",
             "equal":"current_year"
          }
-      }
+      },
+      {"calculate": "datum.value / 1000", "as": "value_in_k"}
+
    ],
    "encoding":{
       "x":{
-         "field":"value",
+         "field":"value_in_k",
          "aggregate":"sum",
          "type":"quantitative",
-         "title":"EV car sales (unit)"
+         "title":"EV car sales (thousand unit)"
       },
       "y":{
          "field":"region",
          "title":"Country",
          "sort":{
             "op":"sum",
-            "field":"value",
+            "field":"value_in_k",
             "order":"descending"
          }
       }
@@ -55,13 +57,13 @@
                "type":"nominal",
                "scale":{
                   "range" : [
-                     "#1F77B4FF",
-                     "#FF7F0EFF",
-                     "#2CA02CFF",
-                     "#D62728FF",
-                     "#9467BDFF",
-                     "#BCBD22FF",
-                     "#17BECFFF"
+                     "#a6bddb",
+                     "#ece7f2",
+                     "#ece7f2",
+                     "#ece7f2",
+                     "#ece7f2",
+                     "#ece7f2",
+                     "#ece7f2"
                   ]
                },
                "legend":null
@@ -84,17 +86,18 @@
       {
          "mark":{
             "type":"text",
-            "align":"right",
-            "xOffset":-2
+            "align":"left",
+            "xOffset":-10
          },
          "encoding":{
             "text":{
-               "field": "value",
+               "field": "value_in_k",
                "aggregate":"sum",
-               "type":"quantitative"
+               "type":"quantitative",
+               "format" : ".1s" 
             },
             "color":{
-               "value":"white"
+               "value":"black"
             }
          }
       }
