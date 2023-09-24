@@ -5,16 +5,16 @@
    "height":350,
    "title":"Number of crimes over the years",
    "data":{
-      "url":"https://raw.githubusercontent.com/Jason-Toh/FIT3179/main/assignment_2/data/nyc_crime_filtered.csv"
+      "url":"https://raw.githubusercontent.com/poonYeongShian/FIT3179/main/week10_homework/data/IEA-EV-dataEV-salesHistoricalCars.csv"
    },
    "params":[
       {
          "name":"current_year",
-         "value":2006,
+         "value":2018,
          "bind":{
             "input":"range",
-            "min":2006,
-            "max":2019,
+            "min":2018,
+            "max":2022,
             "step":1,
             "name":"Year: "
          }
@@ -24,24 +24,24 @@
       {
          "filter":{
             "timeUnit":"year",
-            "field":"arrest_date",
+            "field":"year",
             "equal":"current_year"
          }
       }
    ],
    "encoding":{
       "x":{
-         "field":"arrest_key",
-         "aggregate":"count",
+         "field":"value",
+         "aggregate":"sum",
          "type":"quantitative",
-         "title":"Number of Offences"
+         "title":"EV car sales (unit)"
       },
       "y":{
-         "field":"ofns_desc",
-         "title":"Name of Offence",
+         "field":"region",
+         "title":"Country",
          "sort":{
-            "op":"count",
-            "field":"arrest_key",
+            "op":"sum",
+            "field":"value",
             "order":"descending"
          }
       }
@@ -51,7 +51,7 @@
          "mark":"bar",
          "encoding":{
             "color":{
-               "field":"ofns_desc",
+               "field":"region",
                "type":"nominal",
                "scale":{
                   "range" : [
@@ -68,12 +68,12 @@
             },
             "tooltip":[
                {
-                  "field":"ofns_desc",
+                  "field":"region",
                   "type":"nominal",
-                  "title":"Name of Offence"
+                  "title":"Country"
                },
                {
-                  "aggregate":"count",
+                  "aggregate":"sum",
                   "type":"quantitative",
                   "title":"Number of Offences"
                }
