@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homework Week 9</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Serif:ital,opsz@1,8..144&display=swap"
+        rel="stylesheet">
+
+    <!-- custom style -->
+    <style>
+        * {
+            font-family: 'Oxygen', sans-serif;
+        }
+
+        html,
+        body {
+            background-color: #F3FAF9;
+        }
+
+        h1 {
+            font-family: 'Roboto Serif', serif;
+        }
+
+        .page {
+            width: 750px;
+            background-color: white;
+            margin: auto;
+            padding: 70px;
+            padding-top: 35px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- Title and subtitle -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <h1>Global Green House Gas Emission (2023)</h1>
+                <p>
+                    Which region of the world has the <b>highest annual carbon dioxide (CO2) emissions per person</b>?
+                    We determine the individual contribution of each country's average citizen by dividing its total
+                    emissions by its population. This calculation provides us with the metric of CO2 emissions per
+                    capita.
+                    The visualization illustrates the variations in per capita emissions across the globe.
+                </p>
+            </div>
+        </div>
+        <!-- <div id="bar_chart"> 
+        </div> -->
+        
+        <!-- Choropleth map -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+            <div id="choropleth_map" class="vis-container"></div>
+            </div>
+        </div>
+
+    <script type="text/javascript">
+        // var specVis1 = "./Visualisations/choropleth.json";
+        // var specVis2 = "./Visualisations/genderLine.json";
+        // var specVis3 = "./Visualisations/InteractiveScatter.json";
+        // var specVis4 = "./Visualisations/choroplethMetroMelb.json";
+        // var specVis5 = "./Visualisations/dotplot.json";
+    
+        // vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
+        //     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        // }).catch(console.error);
+
+        // var vg_1 = "./Visualisations/daily_cost_bar_chart.vg.json";
+        var vg_2 = "./Visualisations/choropleth_map.vg.json";
+
+        // vegaEmbed("#bar_chart", vg_1).then(function(result) {
+        //     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        // }).catch(console.error);
+
+
+        vegaEmbed('#choropleth_map', vg_2).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        </script>
+</body>
+
+</html>
