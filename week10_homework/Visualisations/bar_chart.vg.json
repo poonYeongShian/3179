@@ -3,7 +3,7 @@
    "background":"#fff7fb",
    "width": 620,
    "height":350,
-   "title":"Number of crimes over the years",
+   "title":"Number of EV car sold over the years",
    "data":{
       "url":"https://raw.githubusercontent.com/poonYeongShian/FIT3179/main/week10_homework/data/IEA-EV-dataEV-salesHistoricalCars.csv"
    },
@@ -73,9 +73,10 @@
                   "title":"Country"
                },
                {
+                  "field": "value",
                   "aggregate":"sum",
                   "type":"quantitative",
-                  "title":"Number of Offences"
+                  "title":"Number of EV car sold"
                }
             ]
          }
@@ -88,7 +89,8 @@
          },
          "encoding":{
             "text":{
-               "aggregate":"count",
+               "field": "value",
+               "aggregate":"sum",
                "type":"quantitative"
             },
             "color":{
