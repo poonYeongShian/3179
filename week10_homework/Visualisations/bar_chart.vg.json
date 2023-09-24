@@ -1,9 +1,9 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-   "background":"#fff7fb",
+   "background":"#fff",
    "width": 620,
    "height":350,
-   "title":"Number of EV car sold over the years",
+   "title":"Number of EV cars sold (2015-2021)",
    "data":{
       "url":"https://raw.githubusercontent.com/poonYeongShian/FIT3179/main/week10_homework/data/IEA-EV-dataEV-salesHistoricalCars.csv"
    },
@@ -14,7 +14,7 @@
          "bind":{
             "input":"range",
             "min":2015,
-            "max":2022,
+            "max":2021,
             "step":1,
             "name":"Year: "
          }
@@ -36,7 +36,7 @@
          "field":"value_in_k",
          "aggregate":"sum",
          "type":"quantitative",
-         "title":"EV car sales (thousand unit)"
+         "title":"EV car sales (thousand units)"
       },
       "y":{
          "field":"region",
@@ -94,12 +94,34 @@
                "field": "value_in_k",
                "aggregate":"sum",
                "type":"quantitative",
-               "format" : ".1s" 
+               "format" : ".1d" 
             },
             "color":{
                "value":"black"
             }
          }
       }
-   ]
+   ],
+   "config": {
+      "view": {
+        "stroke": null
+      },
+      "axis": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "legend": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "header": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "title": {
+        "font": "Oxygen",
+        "fontSize": 16,
+        "fontWeight": 600
+      }
+    }
 }
