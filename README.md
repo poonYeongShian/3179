@@ -1,1 +1,1 @@
-link to week 10 homework: https://poonyeongshian.github.io/FIT3179/
+link to FIT3179: https://poonyeongshian.github.io/FIT3179/
