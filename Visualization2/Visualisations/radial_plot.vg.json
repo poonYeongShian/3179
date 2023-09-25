@@ -1,28 +1,42 @@
 {
     "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-    "title":"Percentage of crimes against number of offences",
-    "background":"#fff7fb",
+    "title":"EV charging points, 2021",
+    "background":"#fff",
     "description":"A simple radial chart with embedded data.",
-    "width":"container",
+    "width":625,
     "height":300,
     "data":{
-       "url":"https://raw.githubusercontent.com/Jason-Toh/FIT3179/main/assignment_2/data/crime_type.csv"
+       "url":"https://raw.githubusercontent.com/poonYeongShian/FIT3179/main/Visualization2/data/IEA-EV-dataEV-charging-pointsHistoricalEV.csv"
     },
     "params": [
       {
-         "name":"crime_type_selection",
+         "name":"powertrain_type_selection",
          "bind": {
             "input": "select",
-            "options": [null,"Property","Violent"],
-            "labels": ["Show all","Property Crime","Violent Crime"],
-            "name": "Crime Type: "
+            "options": [null,"Publicly available fast","Publicly available slow"],
+            "labels": ["Show all","Fast","Slow"],
+            "name": "Charging Point Type: "
          }
       }
    ],
    "transform": [
       {
-         "filter": "crime_type_selection == null || datum.crime_type == crime_type_selection"
-      }
+         "filter": "powertrain_type_selection == null || datum.powertrain == powertrain_type_selection"
+      },
+      {
+         "aggregate": [{"op": "sum", "field": "value", "as": "sum_value"}],
+         "groupby": ["region"]
+      },
+      {
+         "window": [{
+             "op": "sum",
+             "field": "sum_value",
+             "as": "total"
+         }],
+         "frame": [null, null]
+       },
+      {"calculate": "datum.sum_value / datum.total * 100", "as": "percentage"}
+  
    ],
     "layer":[
        {
@@ -36,25 +50,26 @@
        {
           "mark":{
              "type":"text",
-             "radiusOffset":20,
-             "fontSize":20
+             "radiusOffset":10,
+             "fontSize":15
           },
           "encoding":{
              "text":{
                 "field":"percentage",
-                "type":"quantitative"
+                "type":"quantitative",
+                "format" : ".1d" 
              }
           }
        }
     ],
     "encoding":{
        "theta":{
-          "field":"crime_count",
+          "field":"sum_value",
           "type":"quantitative",
           "stack":true
        },
        "radius":{
-          "field":"crime_count",
+          "field":"sum_value",
           "type":"quantitative",
           "scale":{
              "type":"sqrt",
@@ -63,40 +78,63 @@
           }
        },
        "color":{
-          "title":"Crime",
-          "field":"ofns_desc",
+          "title":"Country",
+          "field":"region",
           "type":"nominal",
           "scale":{
               "range":[
-                 "#1F77B4FF",
-                 "#FF7F0EFF",
-                 "#2CA02CFF",
-                 "#D62728FF",
-                 "#9467BDFF",
-                 "#BCBD22FF",
-                 "#17BECFFF"
+                  "#44aa99",
+                  "#ee6677",
+                  "#bbbbbb",
+                  "#aa3377",
+                  "#66ccee",
+                  "#ccbb44",
+                  "#4477aa"
               ]
           }
        },
        "tooltip":[
           {
-             "field":"ofns_desc",
+             "field":"region",
              "type":"nominal",
-             "title":"Offence Type"
+             "title":"Country"
           },
           {
-             "field":"crime_count",
+             "field":"sum_value",
              "type":"quantitative",
-             "title":"Offence Count"
+             "title":"Total Charging Point"
           },
           {
              "field":"percentage",
              "type":"quantitative",
-             "title":"Percentage (%)"
+             "title":"Percentage (%)",
+             "format" : ".1d" 
           }
        ]
     },
     "view":{
        "stroke":null
+    },
+    "config": {
+      "view": {
+        "stroke": null
+      },
+      "axis": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "legend": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "header": {
+        "labelFont": "Oxygen",
+        "titleFont": "Oxygen"
+      },
+      "title": {
+        "font": "Oxygen",
+        "fontSize": 16,
+        "fontWeight": 600
+      }
     }
  }
