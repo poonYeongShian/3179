@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homework Week 9</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Serif:ital,opsz@1,8..144&display=swap"
+        rel="stylesheet">
+
+    <!-- custom style -->
+    <style>
+        * {
+            font-family: 'Oxygen', sans-serif;
+        }
+
+        html,
+        body {
+            background-color: #F3FAF9;
+        }
+
+        h1 {
+            font-family: 'Roboto Serif', serif;
+            font-weight: 900;
+        }
+
+        .page {
+            width: 750px;
+            background-color: white;
+            margin: auto;
+            padding: 70px;
+            padding-top: 35px;
+        }
+
+        .vis-container {
+            width: 100%;
+        }
+
+        .description h2,
+        h1 {
+        margin-top: 10px;
+        }
+
+        .pure-g {
+            margin-bottom: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- Title and subtitle -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <h1>Sustainable Transport: CO2 Emissions & EV Sales</h1>
+                <p>
+                    This data was sourced from the website 'Our World in Data,' 
+                    curated by Hannah Ritchie and Max Roser, which tracks CO2 emissions. 
+                    It calculates the individual contribution of each country's average citizen 
+                    by dividing the country's total emissions by its population. 
+                    This calculation provides us with the metric of CO2 emissions per capita. 
+                    The visualization demonstrates the disparities in <b>per capita emissions worldwide</b>.
+                </p>
+            </div>
+        </div>
+   
+        
+        <!-- Choropleth map -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+            <div id="choropleth_map" class="vis-container"></div>
+            </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+              <p>In this dataset of global CO2 emissions per capita,Qatar tops the list with <b>35.59 tons</b> of CO2 emissions per capita, 
+                while the Democratic Republic of Congo has the lowest at <b>0.0272 tons</b>,
+                revealing significant global disparities.
+              </p>
+            </div>
+        </div>
+
+        <!-- Bar chart -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+            <div id="bar_chart" class="vis-container"></div>
+            </div>
+        </div>
+
+
+    </div> <!-- end page -->
+
+    <script type="text/javascript">
+      
+        var vg_1 = "./Visualisations/choropleth_map.vg.json";
+
+        var vg_2 = "./Visualisations/bar_chart.vg.json";
+
+
+        vegaEmbed('#choropleth_map', vg_1).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        vegaEmbed('#bar_chart', vg_2).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        </script>
+</body>
+
+</html>
