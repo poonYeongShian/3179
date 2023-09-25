@@ -1,0 +1,15 @@
+region,category,parameter,mode,powertrain,year,unit,value
+China,Historical,EV charging points,EV,Publicly available fast,2021,charging points,470000
+China,Historical,EV charging points,EV,Publicly available slow,2021,charging points,680000
+Germany,Historical,EV charging points,EV,Publicly available fast,2021,charging points,9300
+Germany,Historical,EV charging points,EV,Publicly available slow,2021,charging points,50000
+Japan,Historical,EV charging points,EV,Publicly available fast,2021,charging points,8000
+Japan,Historical,EV charging points,EV,Publicly available slow,2021,charging points,21000
+Korea,Historical,EV charging points,EV,Publicly available fast,2021,charging points,15000
+Korea,Historical,EV charging points,EV,Publicly available slow,2021,charging points,92000
+Norway,Historical,EV charging points,EV,Publicly available fast,2021,charging points,6700
+Norway,Historical,EV charging points,EV,Publicly available slow,2021,charging points,13000
+United Kingdom,Historical,EV charging points,EV,Publicly available fast,2021,charging points,7700
+United Kingdom,Historical,EV charging points,EV,Publicly available slow,2021,charging points,29000
+USA,Historical,EV charging points,EV,Publicly available fast,2021,charging points,22000
+USA,Historical,EV charging points,EV,Publicly available slow,2021,charging points,92000

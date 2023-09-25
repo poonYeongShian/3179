@@ -1,0 +1,102 @@
+{
+    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Percentage of crimes against number of offences",
+    "background":"#fff7fb",
+    "description":"A simple radial chart with embedded data.",
+    "width":"container",
+    "height":300,
+    "data":{
+       "url":"https://raw.githubusercontent.com/Jason-Toh/FIT3179/main/assignment_2/data/crime_type.csv"
+    },
+    "params": [
+      {
+         "name":"crime_type_selection",
+         "bind": {
+            "input": "select",
+            "options": [null,"Property","Violent"],
+            "labels": ["Show all","Property Crime","Violent Crime"],
+            "name": "Crime Type: "
+         }
+      }
+   ],
+   "transform": [
+      {
+         "filter": "crime_type_selection == null || datum.crime_type == crime_type_selection"
+      }
+   ],
+    "layer":[
+       {
+          "mark":{
+             "type":"arc",
+             "innerRadius":20,
+             "stroke":"#fff",
+             "yOffset":-2
+          }
+       },
+       {
+          "mark":{
+             "type":"text",
+             "radiusOffset":20,
+             "fontSize":20
+          },
+          "encoding":{
+             "text":{
+                "field":"percentage",
+                "type":"quantitative"
+             }
+          }
+       }
+    ],
+    "encoding":{
+       "theta":{
+          "field":"crime_count",
+          "type":"quantitative",
+          "stack":true
+       },
+       "radius":{
+          "field":"crime_count",
+          "type":"quantitative",
+          "scale":{
+             "type":"sqrt",
+             "zero":true,
+             "rangeMin":20
+          }
+       },
+       "color":{
+          "title":"Crime",
+          "field":"ofns_desc",
+          "type":"nominal",
+          "scale":{
+              "range":[
+                 "#1F77B4FF",
+                 "#FF7F0EFF",
+                 "#2CA02CFF",
+                 "#D62728FF",
+                 "#9467BDFF",
+                 "#BCBD22FF",
+                 "#17BECFFF"
+              ]
+          }
+       },
+       "tooltip":[
+          {
+             "field":"ofns_desc",
+             "type":"nominal",
+             "title":"Offence Type"
+          },
+          {
+             "field":"crime_count",
+             "type":"quantitative",
+             "title":"Offence Count"
+          },
+          {
+             "field":"percentage",
+             "type":"quantitative",
+             "title":"Percentage (%)"
+          }
+       ]
+    },
+    "view":{
+       "stroke":null
+    }
+ }

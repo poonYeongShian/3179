@@ -57,13 +57,13 @@
                "type":"nominal",
                "scale":{
                   "range" : [
-                     "#a6bddb",
-                     "#ece7f2",
-                     "#ece7f2",
-                     "#ece7f2",
-                     "#ece7f2",
-                     "#ece7f2",
-                     "#ece7f2"
+                     "#44aa99",
+                     "#ee6677",
+                     "#bbbbbb",
+                     "#aa3377",
+                     "#66ccee",
+                     "#ccbb44",
+                     "#4477aa"
                   ]
                },
                "legend":null
@@ -87,7 +87,7 @@
          "mark":{
             "type":"text",
             "align":"left",
-            "xOffset":-10
+            "xOffset":2
          },
          "encoding":{
             "text":{
@@ -97,7 +97,7 @@
                "format" : ".1d" 
             },
             "color":{
-               "value":"black"
+               "value":"#666666"
             }
          }
       }
