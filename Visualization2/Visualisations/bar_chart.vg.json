@@ -1,8 +1,8 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
    "background":"#fff",
-   "width": 635,
-   "height":350,
+   "width": 250,
+   "height":200,
    "title":"Number of EV cars sold (2015-2021)",
    "data":{
       "url":"https://raw.githubusercontent.com/poonYeongShian/FIT3179/main/week10_homework/data/IEA-EV-dataEV-salesHistoricalCars.csv"

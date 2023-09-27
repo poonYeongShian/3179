@@ -3,8 +3,8 @@
     "title":"EV charging points, 2021",
     "background":"#fff",
     "description":"A simple radial chart with embedded data.",
-    "width":625,
-    "height":300,
+    "width":250,
+    "height":200,
     "data":{
        "url":"https://raw.githubusercontent.com/poonYeongShian/FIT3179/main/Visualization2/data/IEA-EV-dataEV-charging-pointsHistoricalEV.csv"
     },
