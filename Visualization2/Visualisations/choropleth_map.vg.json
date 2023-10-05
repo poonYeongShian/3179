@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "CO2 emissions per capita, 2021",
+  "title": "Carbon dioxide CO2 emissions per capita, 2021",
   "width": 660,
   "height": 330,
   "projection": {"type": "equalEarth"},
