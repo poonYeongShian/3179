@@ -78,7 +78,7 @@
                   "field": "value",
                   "aggregate":"sum",
                   "type":"quantitative",
-                  "title":"Number of EV car sold"
+                  "title":"Number of EV car sold (thousand units)"
                }
             ]
          }
