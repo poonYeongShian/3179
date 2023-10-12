@@ -10,7 +10,7 @@
         "url": "https://raw.githubusercontent.com/poonYeongShian/FIT3179/main/week9_homework/data/ne_110m_admin_0_countries.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
-      "mark": {"type": "geoshape", "fill": "#f6e8c3"}
+      "mark": {"type": "geoshape", "fill": "grey"}
     },
     {
 
@@ -109,7 +109,7 @@
         },
         "encoding": {
           "text": {"field": "text_annotation"},
-          "color": {"value": "#666666"} 
+          "color": {"value": "red"} 
         }
     }
 
